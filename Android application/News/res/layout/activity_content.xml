@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Content" >
+
+    
+    
+    
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" 
+        android:textSize = "20dip"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:drawableBottom="@drawable/dividerline"/>
+    
+
+    <ScrollView 
+        android:layout_below="@+id/tv1"
+        android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1" android:fillViewport="true">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+    
+    <TextView
+        android:id="@+id/tv2"
+      
+        android:layout_below="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

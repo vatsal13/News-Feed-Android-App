@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">News2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_heading">Heading</string>
+    <string name="title_activity_content">Content</string>
+    <string-array name="colors">
+        <item ></item>
+        
+    </string-array>
+    <color name="white">#000000</color>
+
+</resources>
